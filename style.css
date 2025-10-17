@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 10;
+}
+#ui label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+#ui input[type=range] {
+  width: 150px;
+}
+#audiofile {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
